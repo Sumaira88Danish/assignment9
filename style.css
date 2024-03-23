@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "oswald" , sans-serif;
+
+}
+
+
+
+.background{
+    background-repeat:"no-repeat";
+    background-size: 100%;
+}
+
+.header{
+    background-color: black;
+    top:0;
+    left: 0;
+    position: fixed;
+    pad: 0;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    position: sticky;
+
+}
+h5{
+    color: aliceblue;
+    font-size: large;
+    font-family: monospace;
+
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+a{
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    display:flex;
+    flex-direction: row;
+    margin-left: 18rem;
+    margin-top: 15px;
+}
+
+
+
+.card{
+margin-left: 45rem;
+display: flex;
+display: block;
+}
+
+h2{
+    font-family: sans-serif;
+    
+    font-size: larger;
+    color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+@media  screen and (min-width: 400px) {
+    .features{
+        background: pink;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .features{
+        background: red;
+    }
+    
+}
+.navbar{
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    z-index: 0;
+   
+}
+
+
+.anchor{
+    width:25%;
+    top: 0;
+    left: 20%;
+    right: 4rem;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -80px;
+    
+}
+.anchor a {
+color: rgb(215, 226, 226);
+font-size: 20px;
+margin:10px;
+padding:10px 10px 10px 10px;
+text-decoration: none;
+border-top: 1px dashed;
+border-bottom: 1px dashed;
+top:10px;
+margin-left: -30;
+
+}
+
+.anchor:hover {
+    color: goldenrod;
+}
+.para-head{
+    height: 200px;
+    width:70%;
+    position: absolute;
+    display: flex;
+    margin:230px 0px 0px 340px;
+    font-size: 50px;
+    color: azure;
+    text-align: center;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.5;
+
+}
+
+
+.home-page .about-us .content {
+    padding: 20px 10px 0px 10px};
